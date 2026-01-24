@@ -8,9 +8,9 @@
 conda create -n zr2vim python=3.10 -y
 conda activate zr2vim
 
-# GPU（示例：CUDA 11.8）
+# GPU
 conda install pytorch==2.1.2 torchvision==0.16.2 pytorch-cuda=11.8 -c pytorch -c nvidia -y
-# 仅 CPU
+# CPU
 conda install pytorch==2.1.2 torchvision==0.16.2 cpuonly -c pytorch -y
 
 pip install -r requirements.txt
